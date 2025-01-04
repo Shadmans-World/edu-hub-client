@@ -1,0 +1,72 @@
+
+.slider-container {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  
+  .movie-card {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 350px; 
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .movie-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    width: calc(100% - 20px);
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Custom styles for the slick slider buttons */
+  .slick-prev, .slick-next {
+    background-color: red !important; /* Set the background color to red */
+    color: white !important; /* Set text color to white (optional) */
+    border-radius: 50% !important; /* Round the buttons */
+    width: 40px; /* Set button width */
+    height: 40px; /* Set button height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; /* Adjust font size */
+    opacity: 0.8; /* Set opacity for the buttons */
+  }
+  
+  /* Optional: Add hover effect for better UX */
+  .slick-prev:hover, .slick-next:hover {
+    background-color: darkred !important; /* Darker red on hover */
+    opacity: 1; /* Full opacity on hover */
+  }
+  
+  /* Position the previous button on the left and next button on the right */
+  .slick-prev {
+    left: -50px; /* Adjust the left position */
+  }
+  
+  .slick-next {
+    right: -50px; /* Adjust the right position */
+  }
+  

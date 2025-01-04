@@ -1,0 +1,102 @@
+[
+  {
+      "serviceName": "Online Math Tutoring",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "2000",
+      "serviceArea": "Online",
+      "description": "Comprehensive online math tutoring for grades 6-12.",
+      "serviceProviderName": "Arif Khan",
+      "serviceProviderEmail": "arif@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  },
+  {
+      "serviceName": "English Language Classes",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "1500",
+      "serviceArea": "Dhaka",
+      "description": "Personalized English language lessons for beginners to advanced levels.",
+      "serviceProviderName": "Sadia Ahmed",
+      "serviceProviderEmail": "sadia@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  },
+  {
+      "serviceName": "Coding for Kids",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "3000",
+      "serviceArea": "Online",
+      "description": "Interactive coding classes for kids, focusing on Scratch and Python.",
+      "serviceProviderName": "Rashid Ali",
+      "serviceProviderEmail": "rashid@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  },
+  {
+      "serviceName": "Science Workshop",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "2500",
+      "serviceArea": "Chittagong",
+      "description": "Hands-on science workshops for middle and high school students.",
+      "serviceProviderName": "Fatima Begum",
+      "serviceProviderEmail": "fatima@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  },
+  {
+      "serviceName": "IELTS Preparation Course",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "4000",
+      "serviceArea": "Online",
+      "description": "Comprehensive IELTS preparation classes with mock tests and feedback.",
+      "serviceProviderName": "Yusuf Rahman",
+      "serviceProviderEmail": "yusuf@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  },
+  {
+      "serviceName": "Art and Craft Classes",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "1800",
+      "serviceArea": "Sylhet",
+      "description": "Creative art and craft classes for kids and adults.",
+      "serviceProviderName": "Anwar Hossain",
+      "serviceProviderEmail": "anwar@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  },
+  {
+      "serviceName": "Public Speaking Course",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "3500",
+      "serviceArea": "Khulna",
+      "description": "Enhance your public speaking and presentation skills.",
+      "serviceProviderName": "Maryam Jahan",
+      "serviceProviderEmail": "maryam@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  },
+  {
+      "serviceName": "Photography Basics",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "2700",
+      "serviceArea": "Barisal",
+      "description": "Learn the basics of photography, including camera handling and editing.",
+      "serviceProviderName": "Hamidul Islam",
+      "serviceProviderEmail": "hamidul@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  },
+  {
+      "serviceName": "Music Classes (Guitar)",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "2200",
+      "serviceArea": "Rajshahi",
+      "description": "Learn to play the guitar with personalized music lessons.",
+      "serviceProviderName": "Khadija Akter",
+      "serviceProviderEmail": "khadija@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  },
+  {
+      "serviceName": "Career Counseling Sessions",
+      "image": "https://i.ibb.co.com/0BFzc7b/DALL-E-2024-12-21-23-56-36-A-visually-appealing-poster-for-an-online-educational-service-featuring-c.webp",
+      "price": "5000",
+      "serviceArea": "Online",
+      "description": "Personalized career guidance and counseling for students and professionals.",
+      "serviceProviderName": "Zahid Hasan",
+      "serviceProviderEmail": "zahid@example.com",
+      "serviceProviderImage": "https://i.ibb.co.com/cQqrTPp/download.jpg"
+  }
+]
