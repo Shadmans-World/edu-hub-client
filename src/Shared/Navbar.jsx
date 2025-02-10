@@ -49,6 +49,10 @@ const Navbar = ({ toggleTheme, currentTheme }) => {
               <NavLink to="/allServices">Services</NavLink>
             </li>
             <li className="mb-2">
+              <NavLink to="/forum">Forum</NavLink>
+            </li>
+           {
+            user ? ( <li className="mb-2">
               <details>
                 <summary>Dashboard</summary>
                 <ul className="p-2 w-[150px]">
@@ -66,7 +70,8 @@ const Navbar = ({ toggleTheme, currentTheme }) => {
                   </li>
                 </ul>
               </details>
-            </li>
+            </li>) : ("")
+           }
           </ul>
         </div>
        <div className="flex items-center gap-2">
