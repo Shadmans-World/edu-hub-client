@@ -13,7 +13,7 @@ const CardPopular = ({ service }) => {
 
   const location = useLocation()
   return (
-    <div className="card card-side bg-base-100 shadow-xl flex-col lg:flex-row">
+    <div className="card card-side bg-base-100 shadow-xl  flex-col lg:flex-row">
  
     <img
     className="w-[250px] p-5 rounded-3xl"
@@ -22,7 +22,7 @@ const CardPopular = ({ service }) => {
   
   <div className="card-body">
     <h2 className="card-title">{serviceName}</h2>
-    <p className="text-left text-gray-500">
+    <p className="text-left text-gray-500 h-[100px]">
           {description.length > 100
             ? `${description.slice(0, 100)}...`
             : description}

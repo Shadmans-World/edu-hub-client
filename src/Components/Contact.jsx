@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="max-w-full mx-auto p-6 bg-gray-200 rounded-lg shadow-lg my-10">
+    <div className="max-w-full mx-auto p-6 bg-base-200 rounded-lg shadow-lg mb-5">
       <h2 className="text-2xl text-black font-bold text-center mb-4">Contact Us</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
@@ -59,7 +59,7 @@ const Contact = () => {
         </div>
         <button
           type="submit"
-          className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition"
+          className="w-full btn btn-primary text-white py-2 px-4 rounded-lg"
         >
           Send Message
         </button>

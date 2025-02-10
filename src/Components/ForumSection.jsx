@@ -77,8 +77,8 @@ const ForumSection = () => {
   const displayedPosts = posts.slice(0, 3);
 
   return (
-    <div className="forum-section p-6 bg-gray-100 my-5">
-      <h2 className="text-2xl font-bold mb-4 text-black" data-aos="fade-up">
+    <div className="forum-section p-6 bg-gray-100 ">
+      <h2 className="text-2xl font-bold mb-4 text-center text-black" data-aos="fade-up">
         Community Forum
       </h2>
       {error && <p className="text-red-500">{error}</p>}
