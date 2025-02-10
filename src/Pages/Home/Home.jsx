@@ -5,6 +5,7 @@ import ForumSection from '../../Components/ForumSection';
 import ArticlesSection from '../../Components/ArticlesSection';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Make sure AOS styles are imported
+import Contact from '../../Components/Contact';
 
 const Home = () => {
   useEffect(() => {
@@ -27,6 +28,9 @@ const Home = () => {
 
       <div data-aos="fade-up">
         <ArticlesSection />
+      </div>
+      <div data-aos="fade-up">
+        <Contact />
       </div>
     </div>
   );

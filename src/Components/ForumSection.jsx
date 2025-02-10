@@ -100,7 +100,7 @@ const ForumSection = () => {
           />
           <button
             type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded"
+            className="btn btn-primary text-white px-4 py-2 rounded"
             disabled={loading}
           >
             {loading ? 'Posting...' : 'Post'}
@@ -131,7 +131,7 @@ const ForumSection = () => {
       {/* "See all forum posts" button */}
       {posts.length > 3 && (
         <div className="mt-4 text-center" data-aos="fade-up">
-          <Link to="/forum" className="bg-blue-500 text-white px-4 py-2 rounded">
+          <Link to="/forum" className="btn btn-primary text-white px-4 py-2 rounded">
             See all forum posts
           </Link>
         </div>
