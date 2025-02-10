@@ -7,13 +7,14 @@ const AllServices = () => {
     const [services, setServices] = useState([]);
     const [searchText, setSearchText] = useState("");
     const [filteredServices, setFilteredServices] = useState([]);
+    const [sortOrder, setSortOrder] = useState("asc");
 
     useEffect(() => {
         axios
-            .get("https://edu-hub-bangla-server.vercel.app/services/addServices",{withCredentials:true})
+            .get("https://edu-hub-bangla-server.vercel.app/services/addServices", { withCredentials: true })
             .then((res) => {
                 setServices(res.data);
-                setFilteredServices(res.data); // Initially show all services
+                setFilteredServices(res.data);
             })
             .catch((error) => {
                 // console.error(error.message);
@@ -31,10 +32,20 @@ const AllServices = () => {
         setFilteredServices(filtered);
     };
 
+    // Handle sorting by price
+    const handleSort = () => {
+        const sortedServices = [...filteredServices].sort((a, b) => {
+            return sortOrder === "asc" ? a.price - b.price : b.price - a.price;
+        });
+        setFilteredServices(sortedServices);
+        setSortOrder(sortOrder === "asc" ? "desc" : "asc");
+    };
+
     return (
         <div>
-            {/* Search Bar */}
-            <div className="my-5">
+            {/* Search & Sort */}
+            <div className="flex justify-between items-center my-5 gap-2 px-3">
+                <button onClick={handleSort} className="btn btn-primary">Sort by Price ({sortOrder === "asc" ? "Ascending" : "Descending"})</button>
                 <input
                     type="text"
                     placeholder="Search services..."

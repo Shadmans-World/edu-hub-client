@@ -41,7 +41,7 @@ const CardPopular = ({ service }) => {
     <div>
       <p className=" font-medium text-blue-700">Price: {service.price} BDT</p>
     </div>
-      <Link to={`/services/${_id}`}><button className="btn btn-primary">View Details</button></Link>
+      <Link to={`/services/${_id}`}><button className="btn btn-primary">See More</button></Link>
     </div>
   </div>
 </div>
