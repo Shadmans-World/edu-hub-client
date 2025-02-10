@@ -140,7 +140,7 @@ const Navbar = ({ toggleTheme, currentTheme }) => {
         </label>
         {user ? (
           <div className="flex gap-2 items-center">
-            <p>{user.displayName}</p>
+            <p className="hidden md:flex">{user.displayName}</p>
             <button onClick={handleLogOut} className="btn">
             <FaSignOutAlt className="w-5 h-5"/>
              
