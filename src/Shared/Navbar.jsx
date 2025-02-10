@@ -18,8 +18,9 @@ const Navbar = ({ toggleTheme, currentTheme }) => {
   };
 
   return (
-    <div className="navbar ">
-      <div className="navbar-start">
+    <div className="bg-base-200 sticky top-0 z-10">
+     <div className="navbar px-5">
+     <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -90,24 +91,30 @@ const Navbar = ({ toggleTheme, currentTheme }) => {
             <NavLink to="/allServices">Services</NavLink>
           </li>
           <li className="mr-2">
-            <details>
-              <summary>Dashboard</summary>
-              <ul className="p-2 w-[150px] z-10">
-                <li className="mb-2">
-                  <NavLink to={"/addServices"}>Add Service</NavLink>
-                </li>
-                <li className="mb-2">
-                  <NavLink to="/manage-services">Manage Service</NavLink>
-                </li>
-                <li className="mb-2">
-                  <NavLink to="/booked-services">Booked Service</NavLink>
-                </li>
-                <li className="mb-2">
-                  <NavLink to="/to-do-services">Service-To-Do</NavLink>
-                </li>
-              </ul>
-            </details>
+            <NavLink to="/forum">Forum</NavLink>
           </li>
+          
+          {
+            user ? (<li className="mr-2">
+              <details>
+                <summary>Dashboard</summary>
+                <ul className="p-2 w-[150px] z-10">
+                  <li className="mb-2">
+                    <NavLink to={"/addServices"}>Add Service</NavLink>
+                  </li>
+                  <li className="mb-2">
+                    <NavLink to="/manage-services">Manage Service</NavLink>
+                  </li>
+                  <li className="mb-2">
+                    <NavLink to="/booked-services">Booked Service</NavLink>
+                  </li>
+                  <li className="mb-2">
+                    <NavLink to="/to-do-services">Service-To-Do</NavLink>
+                  </li>
+                </ul>
+              </details>
+            </li>) : ('')
+          }
         </ul>
       </div>
       <div className="navbar-end flex items-center gap-4">
@@ -140,11 +147,12 @@ const Navbar = ({ toggleTheme, currentTheme }) => {
             </button>
           </div>
         ) : (
-          <Link to="/signIn" className="btn">
+          <Link to="/signIn" className="btn btn-primary">
             Sign in
           </Link>
         )}
       </div>
+     </div>
     </div>
   );
 };
